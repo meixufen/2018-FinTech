@@ -1,0 +1,6 @@
+各个文件作用：
+    data_pro.py：数据处理过程，将csv文件转换为txt文件，再使用jieba分词将句子进行分词。
+    Levenshtein.py：计算两个句子的Levenshtein距离，距离越小，表示两句话更相似;
+    d2b.py：使用doc2bow判断句子的相似性
+    d2b_lev.py：将doc2bow和Levenshtein距离结合起来，计算两句话的相似度。
+    ce.py：该文件是对d2b.py的封装，为了方便d2b_lev.py调用结果进行结合分析。
